@@ -1,0 +1,207 @@
+.third_slide {
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 140px;
+}
+
+.slide_container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.triangle_block {
+  background: #0054bc; /*цвет фона*/
+  width: 150px; /*ширина блока*/
+  height: 90px; /*высота*/
+  padding: 0 60px 0 0; /*внутренние отступы*/
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff; /*цвет шрифта*/
+  text-align: center;
+  clip-path: polygon(0% 0, 100% 0%, 0 100%); /*срезаем углы*/
+  font-size: 48px;
+  font-weight: bold;
+}
+.main_text_area {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.third_slide button {
+  text-transform: uppercase;
+  background: #0054bc;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  height: 39px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+}
+
+.one_block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 65px;
+}
+.two_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.third_slide h2 {
+  width: 404px;
+  color: #002553;
+  font-weight: bold;
+  font-size: 29px;
+  margin-bottom: 25px;
+}
+
+.l_text {
+  width: 375px;
+  color: #7e889f;
+  font-weight: 400;
+  margin-bottom: 11px;
+  font-size: 16px;
+}
+
+.head {
+  color: #002553;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.link_icon {
+  height: 34px;
+  margin-top: 5px;
+}
+
+.arrows {
+  height: 41px;
+  margin-top: -1px;
+}
+
+.text {
+  margin-left: 60px;
+  color: #fff;
+}
+
+.third_slide ul {
+  color: #002553;
+  margin-bottom: 63px;
+  padding-left: 25px;
+  list-style-image: url(./checkmarkk.svg);
+}
+
+.third_slide li {
+  width: 320px;
+  font-size: 16px;
+  font-weight: 300;
+
+  list-style-type: none;
+}
+
+.third_slide li:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .slide_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .two_block {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 250px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1149px) {
+  .slide_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .two_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 180px;
+  }
+  .one_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 65px;
+  }
+  .two_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .two_block img {
+    width: 280px;
+    opacity: 0.5;
+  }
+  .third_slide h2 {
+    width: 404px;
+    color: #002553;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .l_text {
+    width: 375px;
+    color: #7e889f;
+    font-weight: 400;
+    margin-bottom: 11px;
+    font-size: 14px;
+  }
+
+  .head {
+    color: #002553;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .text {
+    margin-left: 60px;
+    color: #fff;
+  }
+
+  .third_slide ul {
+    color: #002553;
+    margin-bottom: 63px;
+    padding-left: 25px;
+    list-style-image: url(./checkmarkk.svg);
+  }
+
+  .third_slide li {
+    width: 320px;
+    font-size: 14px;
+    font-weight: 300;
+
+    list-style-type: none;
+  }
+}

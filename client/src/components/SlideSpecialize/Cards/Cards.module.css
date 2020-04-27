@@ -1,0 +1,140 @@
+.cards_container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:nth-child(2) {
+  margin: 0 45px;
+}
+
+.card {
+  padding: 34px 0 15px 0;
+  width: 340px;
+  height: 370px;
+  border: 0.3px solid #c7c7c7;
+}
+
+.card_container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.card span {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #002553;
+  line-height: 25px;
+}
+
+.card p {
+  margin-top: 23px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7e889f;
+  margin-bottom: 91px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.card button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 25px;
+  background: #0054bc;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .cards_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_shorter {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card {
+    padding: 34px 0 15px 0;
+    width: 340px;
+    height: 370px;
+    border: 0.3px solid #c7c7c7;
+  }
+  .card:nth-child(2) {
+    margin: 35px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1149px) {
+  .cards_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_shorter {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .card {
+    padding: 34px 0 15px 0;
+    width: 33%;
+    height: 370px;
+    border: 0.3px solid #c7c7c7;
+  }
+  .card p {
+    margin-top: 23px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #7e889f;
+    margin-bottom: 55px;
+    text-align: center;
+    line-height: 18px;
+  }
+  .card:nth-child(2) {
+    margin: 0 15px;
+  }
+
+  .card span {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #002553;
+    line-height: 25px;
+    text-align: center;
+  }
+  .card button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 25px;
+    background: #0054bc;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+}

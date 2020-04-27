@@ -1,0 +1,8 @@
+{
+  "port": 5000,
+  "jwtSecret": "keyTop",
+  "mongoUri": "mongodb+srv://AnimeGirl123:attac2145@cluster0-bqukv.mongodb.net/test?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000",
+  "user": "musii.li@inbox.ru",
+  "pass": "attac2145"
+}

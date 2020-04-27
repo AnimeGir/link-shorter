@@ -1,0 +1,33 @@
+.main_slide {
+  width: 100%;
+  padding: 65px 0 85px 0;
+  color: #000;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_slide h2 {
+  color: #002553;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main_slide span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.main_slide p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}

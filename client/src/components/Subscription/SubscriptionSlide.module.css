@@ -1,0 +1,175 @@
+.subscription {
+  background: #fff;
+  width: 100%;
+  color: #7e889f;
+  padding: 90px 0 100px 0;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription h2 {
+  color: #002553;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.l_text {
+  font-size: 16px;
+  margin: 12px 0 120px 0;
+  font-weight: 400;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inp {
+  border: none;
+  border-bottom: 1px solid #002553;
+  height: 40px;
+  width: 550px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.sub {
+  margin-top: 5px;
+  margin-right: auto;
+  height: 12px;
+}
+
+.check {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.sub input {
+  width: 12px;
+  height: 12px;
+  border: 0.5px solid #d2d2d2;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.button_submit {
+  height: 40px;
+  background: #00a78e;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 14px;
+  font-weight: 700;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscription h2 {
+    text-align: center;
+    color: #002553;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .l_text {
+    font-size: 10px;
+    margin: 12px 0 60px 0;
+    font-weight: 400;
+  }
+
+  .subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .inp {
+    border: none;
+    border-bottom: 1px solid #002553;
+    height: 40px;
+    width: 230px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sub input {
+    width: 12px;
+    height: 12px;
+    border: 0.5px solid #d2d2d2;
+    border-radius: 2px;
+    background: #fff;
+  }
+
+  .check {
+    display: none;
+  }
+  .button_submit {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1149px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscription h2 {
+    margin: 0 auto;
+    color: #002553;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .l_text {
+    font-size: 14px;
+    margin: 12px 0 120px 0;
+    font-weight: 400;
+  }
+}
