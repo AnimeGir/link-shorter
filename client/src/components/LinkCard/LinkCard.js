@@ -13,7 +13,6 @@ export const LinkCard = ({ link }) => {
     { name: "29.04.20", clicks: link.clicks },
     { name: "30.04.20", clicks: link.clicks },
   ];
-
   return (
     <>
       <div className={classes.link_section}>
@@ -40,15 +39,15 @@ export const LinkCard = ({ link }) => {
           </p>
           <p>
             Полученная ссылка:{" "}
-            <Link to={link.to} target="_blank" rel="noopener noreferrer">
+            <a href={link.to} target="_blank" rel="noopener noreferrer">
               {link.to}
-            </Link>
+            </a>
           </p>
           <p>
             Начальная ссылка:{" "}
-            <Link to={link.from} target="_blank" rel="noopener noreferrer">
+            <a href={link.from} target="_blank" rel="noopener noreferrer">
               {link.from}
-            </Link>
+            </a>
           </p>
           <span>
             Дата создания:{" "}

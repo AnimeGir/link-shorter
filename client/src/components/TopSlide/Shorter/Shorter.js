@@ -23,6 +23,7 @@ export const Shorter = () => {
           Authorization: `Bearer ${auth.token}`,
         }
       );
+
       history.push(`/detail/${data.link._id}`);
       cogoToast.info("Ссылка сокращена");
     } catch (e) {
@@ -37,7 +38,6 @@ export const Shorter = () => {
         placeholder="Вставьте длинный URL-адрес и укоротите его"
         value={link}
         onChange={(e) => setLink(e.target.value)}
-        onKeyPress={pressHandler}
       />
       <button className={classes.shortenit_b} onClick={pressHandler}>
         Сократить

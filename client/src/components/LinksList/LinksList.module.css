@@ -71,13 +71,13 @@
   border-radius: 2px;
 }
 
-.card a {
-  color: #fff;
-}
-
 .more_button {
   background: #4caf50;
   margin-right: 15px;
+}
+
+.more_button a {
+  color: #fff;
 }
 
 .more_button:hover {
@@ -99,6 +99,10 @@
   margin-bottom: 20px;
 }
 
+.color_black {
+  color: #000;
+}
+
 .date {
   font-size: 16px;
   color: #6c757d;
@@ -108,7 +112,7 @@
 .short_link {
   font-size: 20px;
 
-  background: #ddd;
+  background: #f8f8f8;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   display: flex;
@@ -118,6 +122,10 @@
 
 .short_link p {
   padding: 8px 15px;
+}
+
+.short_link a {
+  color: #000;
 }
 
 .copy {

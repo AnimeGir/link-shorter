@@ -29,7 +29,7 @@ export const RegisterPage = () => {
       const data = await request("/api/auth/register", "POST", { ...form });
       cogoToast.info(data.message);
     } catch (e) {
-      cogoToast.error(e);
+      cogoToast.error("Такой пользователь уже существует");
     }
   };
   if (auth.isAuthenticated === true) return <Redirect to="/" />;

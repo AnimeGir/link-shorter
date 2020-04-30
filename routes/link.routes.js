@@ -38,8 +38,8 @@ router.post("/generate", auth, async (req, res) => {
 router.post("/delete", async (req, res) => {
   try {
     const { code } = req.body;
-    const link = await Link.remove({ code: code });
-    res.status(201).json({ link });
+    const link = await Link.deleteOne({ code: code });
+    res.status(201).json({ message: "Ссылка удалена" });
   } catch (e) {
     res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" });
   }

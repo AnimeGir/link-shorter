@@ -49,12 +49,29 @@ export const LinksList = ({ links }) => {
             return (
               <div className={classes.card} key={link._id}>
                 <div className={classes.card_container}>
-                  <h2 className={classes.header_link}>{link.from}</h2>
+                  <h2 className={classes.header_link}>
+                    <a
+                      className={classes.color_black}
+                      href={link.from}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.from}
+                    </a>
+                  </h2>
                   <p className={classes.date}>
                     {new Date(link.date).toLocaleDateString()}
                   </p>
                   <div className={classes.short_link}>
-                    <p id="copy">{link.to}</p>
+                    <p id="copy">
+                      <a
+                        href={link.to}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {link.to}
+                      </a>
+                    </p>
                     <button
                       className={classes.copy}
                       onClick={() => copyHandle(link)}
