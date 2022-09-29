@@ -27,7 +27,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.10",
     "nodemailer": "^6.4.6",
-    "recharts": "^1.8.5",
+    "recharts": "^2.1.14",
     "shortid": "^2.2.15"
   },
   "devDependencies": {
